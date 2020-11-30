@@ -4,7 +4,7 @@ body{
 
 a.navbar-home{
     background-color: #4aaaa5;
-    font-family: "Time New Roman";
+    font-family: 'Times New Roman', Times, serif;
     padding: 10px;
     margin-left: 10px;
     font-size: 25px;
@@ -25,4 +25,88 @@ a.nav-link{
 
 .nav-item.drop-down.show{
     background-color: #ddd;
+}
+
+.dropdown-menu{
+    margin: 0;
+}
+
+nav li{
+    margin-right: 20px;
+}
+
+nav a{
+    color: #ededed;
+    font-weight: bold;
+}
+
+.col-md-12{
+    background-color: white;
+    padding: 25px;
+    margin-top: 40px;
+}
+
+.container h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+.container h2{
+    font-family:'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-image{
+    width: 80%;
+    padding: 8px;
+}
+
+.img-with-text{
+    text-align: justify;
+    width: 100%;
+}
+.img-with-text img {
+    display: block;
+    margin: 0 auto;
+}
+
+.img-border {
+    border-style: solid;
+    border-color: #4aaaa5;
+    border-width: thin;
+}
+
+@media (max-width: 900px) {
+    .navbar-expand-1g {
+        background-color: #4aaaa5 !important;
+    }
+    .Navbar{
+        padding: inherit;
+    }
+    .Navbar div {
+        background-color: white;
+    }
+    .navbar-home {
+        padding: 10px;
+    }
+    button{
+        margin-right: 60px;
+    }
+    .navbar-light .navbar-toggler {
+        color: #575555;
+        border-color: #ffffff;
+    }
+}
+.container{
+    width: 1024px;
+    margin: o auto;
 }
