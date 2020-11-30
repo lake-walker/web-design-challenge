@@ -1,0 +1,28 @@
+body{
+    background-color: #ededed;
+}
+
+a.navbar-home{
+    background-color: #4aaaa5;
+    font-family: "Time New Roman";
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.Navbar{
+    padding: 0px 150px 0px 60px;
+}
+
+a.nav-link{
+    font-weight: inherit;
+    color: rgb(0,0,0);
+}
+
+.navbar-light .navbar-home{
+    color: rgb(255,255,255);
+}
+
+.nav-item.drop-down.show{
+    background-color: #ddd;
+}
