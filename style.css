@@ -16,15 +16,16 @@ a.navbar-home{
 
 a.nav-link{
     font-weight: inherit;
-    color: rgb(0,0,0);
+    color: rgb(0,0,0)
 }
 
 .navbar-light .navbar-home{
     color: rgb(255,255,255);
 }
 
-.nav-item.drop-down.show{
+.navbar-icon.drop-down.show{
     background-color: #ddd;
+    color: black;
 }
 
 .dropdown-menu{
@@ -33,11 +34,22 @@ a.nav-link{
 
 nav li{
     margin-right: 20px;
+    content: ' ▾'
 }
 
 nav a{
-    color: #ededed;
-    font-weight: bold;
+    color: black;
+    text-align: auto;
+    margin-top: 0%;   
+}
+
+.collapse-navbar{
+    margin: 0;
+    content: ' ▾'
+}
+
+nav .navbar-icon{
+    margin-top: 4px;
 }
 
 .col-md-12{
@@ -45,7 +57,9 @@ nav a{
     padding: 25px;
     margin-top: 40px;
 }
-
+.col-md-4{
+    float: right;
+}
 .container h1{
     font-family: 'Times New Roman', Times, serif;
     color: #4aaaa5;
@@ -84,7 +98,37 @@ h4 {
     border-color: #4aaaa5;
     border-width: thin;
 }
+nav .drop-down {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    float: right;
+    display: flex;
+}
+.navbar-toggler{
+    float: right;
+    padding: 0;
+    display: flex;
+    margin: 0;
+    text-align: auto;
+    text-decoration: none;
+}
+.container{
+    width: 1024px;
+    margin: 0 auto;
+}
+.col-md-12 p{
+    text-align: center;
+}
 
+
+.dataframe{
+    align-items: center;
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px #4aaaa5;
+}
 @media (max-width: 900px) {
     .navbar-expand-1g {
         background-color: #4aaaa5 !important;
@@ -105,8 +149,4 @@ h4 {
         color: #575555;
         border-color: #ffffff;
     }
-}
-.container{
-    width: 1024px;
-    margin: o auto;
 }
