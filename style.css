@@ -58,7 +58,7 @@ li .nav-item{
     margin-top: 40px;
 }
 .col-md-4{
-    float: right;
+    float: center;
 }
 .container h1{
     font-family: 'Times New Roman', Times, serif;
@@ -151,5 +151,8 @@ li .dropdown {
     }
     .dataframe{
         width: 50%;
+    }
+    .col-md-12{
+        transform: rotation(-90deg);
     }
 }
